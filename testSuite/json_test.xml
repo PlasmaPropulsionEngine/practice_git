@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Json tests"  thread-count="5">
+
+<listeners>
+<listener class-name="test_components.Listeners"></listener>
+</listeners>
+
+  
+  <test thread-count="5" name="json data tests">
+    <classes>
+      <class name="tests.Json_Test"/>
+    </classes>
+  </test> 
+
+
+</suite> 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Json data tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="data drivern tests(failed)">
+    <classes>
+      <class name="tests.Json_Test">
+        <methods>
+          <include name="jsonDataTest" invocation-numbers="0 1"/>
+          <include name="browserLaunch"/>
+          <include name="stop"/>
+        </methods>
+      </class> <!-- tests.Json_Test -->
+    </classes>
+  </test> <!-- data drivern tests(failed) -->
+</suite> <!-- Failed suite [Json data tests] -->

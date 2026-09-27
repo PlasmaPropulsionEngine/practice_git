@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Stand Alone test]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="test_components.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="stand alone test(failed)" verbose="0">
+    <classes>
+      <class name="tests.StandAlonePageObjectTest">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="EndToEndTest"/>
+          <include name="stop"/>
+        </methods>
+      </class> <!-- tests.StandAlonePageObjectTest -->
+    </classes>
+  </test> <!-- stand alone test(failed) -->
+</suite> <!-- Failed suite [Stand Alone test] -->

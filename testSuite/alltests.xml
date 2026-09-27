@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="all tests"  thread-count="5">
+
+<listeners>
+<listener class-name="test_components.Listeners"></listener>
+</listeners>
+
+  <test thread-count="5" name="Regression tests">
+    <classes>
+   		<class name="tests.StandAlonePageObjectTest"></class>
+      	<class name="tests.DataProviderTest"></class>
+	    <class name="tests.DataProviderHashMap"></class>
+		<class name="tests.Json_Test"></class>
+    </classes>
+  </test> 
+
+
+</suite> <!-- Suite -->
