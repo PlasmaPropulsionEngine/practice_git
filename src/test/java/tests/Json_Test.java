@@ -19,7 +19,7 @@ public class Json_Test extends BaseTest {
 @Test(dataProvider = "dataset")	
 public void jsonDataTest(HashMap<String,String>data)
 {
-	//this is json test
+	//this is json tests
 	ProductCatalouge productCatalouge = loginPage.loginApplication(data.get("email"),data.get("pass"));
 	
 	productCatalouge.AddProductTocart(data.get("productName"));
